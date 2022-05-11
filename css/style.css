@@ -1,0 +1,304 @@
+.navbar {
+  padding: 0 !important; }
+  .navbar .container-fluid {
+    background-color: #DFDFDF;
+    padding: 4px 20px; }
+    .navbar .container-fluid a {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .navbar .container-fluid a img {
+        width: 40px;
+        height: 40px; }
+    .navbar .container-fluid .but {
+      background-color: white;
+      border: none;
+      outline: 0;
+      padding: 0;
+      padding-top: 4px; }
+      .navbar .container-fluid .but:active {
+        outline: none; }
+  .navbar h1 {
+    margin: 0;
+    color: black;
+    cursor: pointer; }
+  .navbar ul li button {
+    border: none;
+    margin: 10px 4px;
+    border-radius: 8px;
+    transition: .6s;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 14px; }
+    .navbar ul li button:hover {
+      background-color: grey; }
+    .navbar ul li button:active {
+      transform: scale(0.92); }
+  .navbar ul li .navbar-toggler {
+    border: none; }
+
+#home {
+  background-color: red; }
+
+#header {
+  display: none; }
+
+#hisoblash {
+  display: none; }
+  #hisoblash .container-fluid .left {
+    background-color: #DFDFDF;
+    box-sizing: border-box;
+    padding: 0 40px; }
+    #hisoblash .container-fluid .left .row .kirish {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      align-items: center;
+      margin: 10px 0;
+      padding: 0;
+      padding-left: 20px;
+      box-shadow: 0 0 2px 4px #bbbaba;
+      border-radius: 4px; }
+      #hisoblash .container-fluid .left .row .kirish label {
+        width: 55%;
+        font-size: 20px;
+        padding: 4px 0; }
+      #hisoblash .container-fluid .left .row .kirish input {
+        font-size: 20px;
+        width: 45%;
+        outline: none;
+        border-radius: 4px;
+        padding-left: 10px; }
+      #hisoblash .container-fluid .left .row .kirish input::-webkit-outer-spin-button,
+      #hisoblash .container-fluid .left .row .kirish input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; }
+    #hisoblash .container-fluid .left .button {
+      display: flex;
+      justify-content: flex-end;
+      padding: 8px 0; }
+      #hisoblash .container-fluid .left .button button {
+        border: none;
+        padding: 4px 12px;
+        margin: 10px 4px;
+        border-radius: 4px;
+        transition: .6s;
+        box-shadow: 0 0 5px 4px #b4b4b4;
+        margin: 0; }
+        #hisoblash .container-fluid .left .button button:hover {
+          background-color: grey; }
+        #hisoblash .container-fluid .left .button button:active {
+          transform: scale(0.92); }
+    #hisoblash .container-fluid .left .natija {
+      padding: 10px 0;
+      padding-top: 0; }
+      #hisoblash .container-fluid .left .natija .beton,
+      #hisoblash .container-fluid .left .natija .hovuz,
+      #hisoblash .container-fluid .left .natija .geomembrana {
+        padding-left: 20px;
+        background-color: white;
+        box-shadow: 0 0 2px 4px #bbbaba;
+        border-radius: 4px;
+        margin: 10px 0;
+        gap: 20px; }
+        #hisoblash .container-fluid .left .natija .beton p,
+        #hisoblash .container-fluid .left .natija .hovuz p,
+        #hisoblash .container-fluid .left .natija .geomembrana p {
+          width: 55%;
+          font-size: 20px;
+          border-radius: 4px;
+          margin: 0; }
+        #hisoblash .container-fluid .left .natija .beton #yuza,
+        #hisoblash .container-fluid .left .natija .beton #beton,
+        #hisoblash .container-fluid .left .natija .beton #hajm,
+        #hisoblash .container-fluid .left .natija .hovuz #yuza,
+        #hisoblash .container-fluid .left .natija .hovuz #beton,
+        #hisoblash .container-fluid .left .natija .hovuz #hajm,
+        #hisoblash .container-fluid .left .natija .geomembrana #yuza,
+        #hisoblash .container-fluid .left .natija .geomembrana #beton,
+        #hisoblash .container-fluid .left .natija .geomembrana #hajm {
+          width: 45%; }
+    #hisoblash .container-fluid .left .narx {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      align-items: center;
+      margin: 10px 0;
+      padding: 0;
+      padding-left: 20px;
+      box-shadow: 0 0 2px 4px #bbbaba;
+      border-radius: 4px; }
+      #hisoblash .container-fluid .left .narx label {
+        width: 55%;
+        font-size: 20px;
+        padding: 4px 0; }
+      #hisoblash .container-fluid .left .narx input {
+        font-size: 20px;
+        width: 45%;
+        outline: none;
+        border-radius: 4px;
+        padding-left: 10px; }
+      #hisoblash .container-fluid .left .narx input::-webkit-outer-spin-button,
+      #hisoblash .container-fluid .left .narx input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; }
+    #hisoblash .container-fluid .left .sum {
+      display: flex;
+      justify-content: flex-end;
+      padding: 6px 0; }
+      #hisoblash .container-fluid .left .sum button {
+        border: none;
+        padding: 4px 12px;
+        margin: 10px 4px;
+        border-radius: 4px;
+        transition: .6s;
+        box-shadow: 0 0 5px 4px #b4b4b4;
+        margin: 0; }
+        #hisoblash .container-fluid .left .sum button:hover {
+          background-color: grey; }
+        #hisoblash .container-fluid .left .sum button:active {
+          transform: scale(0.92); }
+    #hisoblash .container-fluid .left .summa {
+      padding: 0; }
+      #hisoblash .container-fluid .left .summa button {
+        font-size: 14px;
+        border: none;
+        background-color: #454545;
+        padding: 4px 8px;
+        border-radius: 4px;
+        transition: .6s;
+        color: white; }
+        #hisoblash .container-fluid .left .summa button:hover {
+          background-color: white;
+          color: black; }
+        #hisoblash .container-fluid .left .summa button:active {
+          transform: scale(0.9); }
+      #hisoblash .container-fluid .left .summa .beton,
+      #hisoblash .container-fluid .left .summa .hovuz,
+      #hisoblash .container-fluid .left .summa .geomembrana {
+        padding-left: 20px;
+        background-color: white;
+        box-shadow: 0 0 2px 4px #bbbaba;
+        border-radius: 4px;
+        margin: 10px 0;
+        gap: 20px; }
+        #hisoblash .container-fluid .left .summa .beton p,
+        #hisoblash .container-fluid .left .summa .hovuz p,
+        #hisoblash .container-fluid .left .summa .geomembrana p {
+          width: 55%;
+          font-size: 20px;
+          border-radius: 4px;
+          margin: 0; }
+        #hisoblash .container-fluid .left .summa .beton #sumGeoM,
+        #hisoblash .container-fluid .left .summa .beton #sumGeoT,
+        #hisoblash .container-fluid .left .summa .beton #sumUmu,
+        #hisoblash .container-fluid .left .summa .hovuz #sumGeoM,
+        #hisoblash .container-fluid .left .summa .hovuz #sumGeoT,
+        #hisoblash .container-fluid .left .summa .hovuz #sumUmu,
+        #hisoblash .container-fluid .left .summa .geomembrana #sumGeoM,
+        #hisoblash .container-fluid .left .summa .geomembrana #sumGeoT,
+        #hisoblash .container-fluid .left .summa .geomembrana #sumUmu {
+          width: 45%; }
+  #hisoblash .container-fluid .right {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #hisoblash .container-fluid .right img {
+      width: 80%; }
+    #hisoblash .container-fluid .right .a,
+    #hisoblash .container-fluid .right .a1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 60px; }
+
+#rasmlar {
+  display: none;
+  height: 100px;
+  width: 100%; }
+  #rasmlar .container-fluid .row {
+    padding: 20px;
+    background-color: #DFDFDF;
+    margin: 20px 0;
+    text-align: center; }
+    #rasmlar .container-fluid .row .img {
+      padding: 0; }
+      #rasmlar .container-fluid .row .img img {
+        width: 100%;
+        height: 100%; }
+    #rasmlar .container-fluid .row h5 {
+      padding-top: 20px;
+      margin: 0; }
+
+#malumot {
+  display: none; }
+  #malumot .container-fluid {
+    padding: 0;
+    margin: 0; }
+    #malumot .container-fluid .box {
+      text-align: center;
+      background-color: #DFDFDF;
+      margin: 130px auto;
+      border-radius: 10px;
+      padding: 20px; }
+      #malumot .container-fluid .box p {
+        font-size: 20px; }
+    #malumot .container-fluid .box2 {
+      width: 100%;
+      padding: 60px 0;
+      text-align: center;
+      background-color: #DFDFDF; }
+      #malumot .container-fluid .box2 .row {
+        margin: 0; }
+        #malumot .container-fluid .box2 .row h5 {
+          font-size: 30px;
+          margin: 0;
+          padding: 0; }
+        #malumot .container-fluid .box2 .row a {
+          padding: 0;
+          font-size: 18px; }
+
+#enter {
+  background-color: #DFDFDF;
+  padding: 184px 0; }
+  #enter .container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #enter .container .box {
+      padding: 20px; }
+      #enter .container .box .box2 {
+        max-width: 500px;
+        background-color: white;
+        padding: 40px;
+        box-shadow: 13px 13px 26px #929292, -13px -13px 26px #ffffff;
+        border-radius: 6px; }
+        #enter .container .box .box2 p {
+          margin: 0;
+          text-align: center;
+          font-size: 20px;
+          color: #a5a5a5; }
+        #enter .container .box .box2 a {
+          text-decoration: none;
+          display: block;
+          border: 2px solid #a5a5a5;
+          text-align: center;
+          color: #a5a5a5;
+          margin: 20px 0;
+          border-radius: 14px;
+          font-size: 20px; }
+          #enter .container .box .box2 a:hover {
+            background-color: blue;
+            color: white; }
+        #enter .container .box .box2 button {
+          width: 100%;
+          border-radius: 14px;
+          font-size: 20px;
+          background-color: blue;
+          color: white; }
+
+/*# sourceMappingURL=style.css.map */
